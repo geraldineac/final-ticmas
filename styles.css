@@ -1,1 +1,18 @@
+body {
+    background-color: #faebd7;
+}
 
+/*Incluye padding y border en el calculo del ancho de la caja*/
+* {
+    box-sizing: border-box;
+}
+
+
+
+/*Las propiedades max-width:100% y height: auto, sirven para no deformar las imagenes*/
+img {
+    max-width: 100%;
+    height: auto; 
+    
+    border-radius: 50%;
+}
