@@ -1,4 +1,9 @@
 # final-ticmas
-Proyecto final para Ticmas Academy 
+Proyecto final para [Ticmas Academy](https://www.ticmas.com/)
+*_Curso:_* Primeros pasos en el Front-End
 
-[Ver el proyecto en Github Pages](https://geraldineac.github.io/final-ticmas/)
+## Enlace al proyecto
+Para ver el proyecto en Github Pages [click aquí](https://geraldineac.github.io/final-ticmas/)
+
+
+
