@@ -15,20 +15,21 @@
 </head>
 <body>
     <div class="row d-flex justify-content-center">
+        <div class="col-sm-1"></div>
         <div class="col-sm-4 mt-3 p-3">
             <div class="text-center">
-                <img src="https://randomuser.me/api/portraits/women/63.jpg" onclick="infoFoto()"  alt="Foto de Carrie Jackson">
-                <h3>Carrie Jackson</h3>
+                <img src="https://randomuser.me/api/portraits/women/63.jpg" id="image" onclick="infoFoto()"  alt="Foto de Carrie Jackson">
+                <h3 id="name">Carrie Jackson</h3>
                 <h5 class="text-secondary mb-3">Developer Front-End</h5>
+                <p class="mb-3" id="text"></p>
             </div>
             <div class="card mb-2 w-100">
                 <div class="card-body">
-                    <ul class="fa-ul list-group">
-                        <li><span class="fa-li"><i class="fa-regular fa-calendar"></i></span>3/4/1971</li>
-                        <li><span class="fa-li"><i class="fa-solid fa-map-marker"></i></span>562 Taylor St</li>
-                        <li><span class="fa-li"><i class="fa-solid fa-phone"></i></span>(619) 308-0452</li>
-                        <li><span class="fa-li"><i class="fa-regular fa-envelope"></i></span>carriejackson@example.com</li>
-                    </ul>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><i class="fa-solid fa-square-phone" style="margin-right: 1em;"></i><span id="phone"></span></li>
+                        <li class="list-group-item"><i class="fa-solid fa-envelope" style="margin-right: 1em;"></i><span id="email"></span></li>
+                        <li class="list-group-item"><i class="fa-solid fa-map-location-dot" style="margin-right: 1em;"></i><span id="location"></span></li>
+                      </ul>
                 </div>
             </div>
             <div class="card w-auto">
@@ -58,7 +59,10 @@
             
         </div>
 
-        <div class="col-sm-8 mt-3">
+        
+
+
+        <div class="col-sm-6 mt-3 p-3">
             <div class="card mb-2 w-auto">
                 <div class="card-body">
                     <h5 class="card-title">Educación</h5>
@@ -139,6 +143,7 @@
                 </div>
             </div>
         </div>
+        <div class="col-sm-1"></div>
     </div>
 
     <!-- Bootstrap v5.3 js -->
